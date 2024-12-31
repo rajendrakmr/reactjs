@@ -1,0 +1,58 @@
+.loading-wrapper {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(85% - 100px);
+    left: calc(50% - 100px);
+    display: flex;
+    font-family: Helvetica;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .loading-text {
+    text-align: center;
+  }
+  
+  .circle {
+    box-sizing: border-box;
+    border-top: 2px solid rgb(136, 179, 56);
+    border-bottom: 2px solid rgb(211, 207, 147);
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-radius: 100%;
+  }
+  
+  .loading-circle {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    animation: rotate 1.5s infinite linear;
+  }
+  
+  .loading-circle-small {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    animation: rotate-reverse 1.5s infinite linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg) translate3d(0, 0, 0)
+    }
+    to {
+      transform: rotate(359deg) translate3d(0, 0, 0)
+    }
+  }
+  
+  @keyframes rotate-reverse {
+    from {
+      transform: rotate(359deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }

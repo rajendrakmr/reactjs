@@ -1,0 +1,22 @@
+/* Restrict the max height to 100px, and handle overflow */
+.cell-max-height {
+    max-height: 100px; /* Limit cell height */
+    overflow: hidden;  /* Hide overflow */
+    text-overflow: ellipsis; /* If text overflows, show ellipsis */
+    white-space: normal; /* Allow text to wrap */
+    display: block;
+    word-break: break-word;
+  }
+  
+  /* Optional: Make the content scrollable on overflow */
+  .cell-max-height:hover {
+    overflow: auto; /* Show scrollbar on hover for longer text */
+  }
+  
+  /* Style paragraphs for better spacing in table cells */
+  .cell-max-height p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em; /* Adjust line spacing */
+  }
+  

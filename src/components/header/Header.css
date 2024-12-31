@@ -1,0 +1,102 @@
+ 
+.menu_btn {
+  cursor: pointer;
+  position: absolute;
+  left: 10px; 
+  top: 10px;  
+  transition: left 0.3s ease-in-out, top 0.3s ease-in-out;  
+}
+
+ 
+@media (min-width: 600px) {
+  .menu_btn {
+    left: 30px;
+  }
+}
+
+ 
+@media (min-width: 768px) {
+  .menu_btn {
+    left: 240px;  
+  }
+}
+
+ 
+@media (min-width: 1024px) {
+  .menu_btn {
+    left: 270px;  
+  }
+}
+
+ 
+@media (min-width: 1440px) {
+  .menu_btn {
+    left: 300px;  
+  }
+}
+
+
+.sidebar_logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  /* width: 280px; */
+}
+
+.sidebar_logo_container img {
+  height: 60px;
+  width: 180px;
+}
+
+
+
+ 
+.header_menu_icon {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.user-welcome-text {
+  margin-right: 10px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+}
+
+ 
+.user-icon-header {
+  display: flex;
+  align-items: center;
+}
+
+ 
+.logout-popup-button {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  right: 0;
+  width: 180px;
+  background-color: #7fecba;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+ 
+.header_menu_icon:hover .logout-popup-button {
+  display: block;
+}
+
+ 
+.logout-popup-button:hover {
+  background-color: #156565;
+}
+
+ 

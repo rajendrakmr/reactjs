@@ -1,0 +1,15 @@
+/* DatePicker.module.css */
+.datePickerPopper {
+    z-index: 9999 !important;
+    /* Custom popper styles */
+}
+
+.datePickerInput {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+
+.react-datepicker-wrapper{
+    width:100%
+}

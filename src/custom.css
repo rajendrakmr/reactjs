@@ -1,0 +1,670 @@
+/* custome css */
+.select_height .css-1uccc91-singleValue {
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  overflow: hidden;
+  /* Hide overflowed content */
+  text-overflow: ellipsis;
+  /* Add ellipsis (...) for overflowed text */
+}
+
+
+
+.modal-header .btn-close {
+  padding: .5rem .5rem;
+  margin: -.5rem -.5rem -.5rem auto;
+  background-color: aqua;
+}
+
+
+
+
+
+/* Radio button  to check box*/
+.custom-radio {
+  display: flex;
+  align-items: center;
+}
+
+.custom-radio input[type="radio"] {
+  display: none; 
+}
+
+.custom-radio label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-radio label::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 2px solid #666;
+  border-radius: 3px; 
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #fff;
+  transition: background-color 0.3s, border-color 0.3s;
+  position: relative;
+}
+
+.custom-radio label::after {
+  content: "\2713";
+  /* Unicode for checkmark */
+  color: #af534c;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.custom-radio input[type="radio"]:checked+label::before {
+  background-color: #fff;
+  border-color: #4CAF50;
+}
+
+.custom-radio input[type="radio"]:checked+label::after {
+  opacity: 1;
+}
+
+.custom-radio input[type="radio"]:focus+label::before {
+  outline: 2px solid #dbecdc;
+  /* Focus effect */
+}
+
+.table>:not(caption)>*>* {
+  padding: 0rem .5rem;
+}
+
+table>thead>tr>th {
+  padding: .5rem .5rem !important;
+}
+
+.child_item>tr>td {
+  padding: .2rem .4rem !important;
+}
+
+.react-datepicker-popper {
+  z-index: 999 !important;
+  line-height: 0;
+}
+
+.select_height .css-1okebmr-indicatorSeparator {
+  display: none;
+  /* Hide the separator between dropdown indicator and input field */
+}
+
+
+.addIconStyle {
+  outline-style: none;
+  font-size: 11px;
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid;
+  color: #fff;
+}
+
+.btn-group-sm>.btn,
+.btn-sm {
+  padding: 0.2rem 0.5rem;
+  font-size: 13px;
+  border-radius: .2rem;
+}
+
+
+.css-1df203q-indicatorContainer {
+  padding: 4px;
+  font-size: 12px;
+  /* Adjust size */
+  height: 20px;
+  /* Control height */
+  width: 20px;
+  /* Control width */
+}
+
+.css-1df203q-indicatorContainer svg {
+  height: 15px;
+  /* Adjust SVG icon height */
+  width: 15px;
+  /* Adjust SVG icon width */
+}
+
+.css-wcmbaz-singleValue {
+  min-width: 80% !important;
+}
+
+.crossDel {
+  cursor: pointer;
+}
+
+.customWidth {
+  width: 118px !important;
+}
+
+.RemoveBtn {
+  border: 1px solid;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #158f7c;
+  padding: 1px
+}
+
+.selectError {
+  color: red;
+  font-size: 11px;
+}
+
+._rkContent {
+  /* background-color: #fff; */
+  padding: 0em;
+  padding-right: 1em;
+  /* backgroundColor: "#fff" ,padding:"0em",paddingRight:"1em" */
+}
+
+._rkContentBorder {
+  align-items: center;
+  border: 1px solid #168b74;
+  margin: 5px 5px;
+  /* backgroundColor: "#fff" ,padding:"0em",paddingRight:"1em" */
+}
+
+/* style={{ alignItems: "center", border: "1px solid #168b74", margin: "5px 5px" }} */
+/* font size of input field and  */
+
+table>thead>tr>th {
+  font-size: 12px !important;
+}
+
+table>tbody>tr>td {
+  font-size: 12px !important;
+}
+
+.wide-input4 {
+  width: 160px !important;
+}
+
+.wide-date4 {
+  width: 110px !important;
+}
+
+.wideinput4 {
+  width: 200px !important;
+}
+
+
+.custome-input-height {
+  height: calc(1em + 0.50rem + 2px);
+  /* Corrected syntax */
+  font-size: 12px;
+  /* Corrected syntax */
+}
+
+.form-group>label {
+  font-size: 12px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.border-dark-custom {
+  border-color: #343a40;
+  /* Dark gray color */
+}
+
+.custome-button-colorr {
+  background-color: #156565;
+}
+
+.custome-button-color1 {
+  background-color: #156e63 !important;
+}
+
+.custome-background-color1 {
+  background-color: #32ab9b;
+}
+
+.custome-button-danger {
+  background-color: #dc3545;
+}
+
+/* validation message */
+.error-validation-message {
+  color: red;
+  font-size: 15px;
+}
+
+
+/* validation message */
+.search-validation-message {
+  color: black;
+  font-size: 23px;
+}
+
+
+.table-header-bg {
+  background-color: #32ab9b;
+}
+
+
+.primary-light-bg {
+  background: #32ab9b;
+}
+
+.child-table-header-bg {
+  background-color: #458c83;
+}
+
+primary-light-color-white {
+  color: white;
+}
+
+.custome-border {
+  border: 1px solid #32ab9b;
+}
+
+.select_height {
+  border: 1px solid #32ab9b;
+  border-radius: 4px;
+}
+
+.custom-width {
+  width: 100%;
+  /* Adjust this value as needed */
+}
+
+/* Media query for extra-large screens */
+@media (min-width: 1200px) {
+  .custom-width {
+    width: 90%;
+    /* Adjust this value as needed */
+  }
+}
+
+
+
+
+/* Assuming this is the CSS for your component */
+.select-container {
+  position: relative;
+  width: 100%;
+}
+
+.select-container select {
+  appearance: none;
+  /* Remove default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 30px;
+  /* Space for the custom arrow */
+  width: 100%;
+  height: 100%;
+  /* Example border style */
+  border-radius: 4px;
+  /* Example border radius */
+  background-color: #fff;
+  /* Example background color */
+  cursor: pointer;
+  /* Show pointer cursor */
+}
+
+/* Custom dropdown arrow */
+.select-container::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  /* Adjust as needed */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  /* Size and color of left border */
+  border-right: 6px solid transparent;
+  /* Size and color of right border */
+  border-top: 6px solid #555;
+  /* Size and color of top border (arrow) */
+  pointer-events: none;
+  /* Ensure the arrow does not intercept clicks */
+}
+
+
+.select-containers {
+  position: relative;
+  width: 100%;
+}
+
+.select-containers select {
+  appearance: none;
+  /* Remove default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 30px;
+  /* Space for the custom arrow */
+  width: 100%;
+  height: 100%;
+  /* Example border style */
+  border-radius: 4px;
+  /* Example border radius */
+  background-color: #fff;
+  /* Example background color */
+  cursor: pointer;
+  /* Show pointer cursor */
+}
+
+/* Custom dropdown arrow */
+.select-containers::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  /* Adjust as needed */
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  /* Size and color of left border */
+  border-right: 6px solid transparent;
+  /* Size and color of right border */
+  /* border-top: 6px solid #555; */
+  /* Size and color of top border (arrow) */
+  pointer-events: none;
+  /* Ensure the arrow does not intercept clicks */
+}
+
+/* menu with checkbox */
+.p-route-link-check {
+  text-decoration: none;
+  padding: 8px 15px;
+  display: block;
+  position: relative;
+  /* background-color: #364150; */
+}
+
+/* Custom CSS for open/close state */
+.accordion-headers {
+  cursor: pointer;
+}
+
+.accordion-collapses {
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.accordion-collapse.show {
+  display: block;
+}
+
+/* Pagination */
+/* .pagination-fixed-pagination {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  z-index: 1000;
+} */
+
+/* .table-container {
+  position: relative; 
+} */
+
+.pagination-container {
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  /* Optional: add a background color */
+  padding: 10px 0;
+  /* Adjust the padding to fit your design */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: add a shadow for emphasis */
+  text-align: center;
+  z-index: 1000;
+  /* Ensure the pagination stays on top of other content */
+}
+
+.table-container .table {
+  margin-bottom: 0;
+  /* Ensure no extra space is added at the bottom of the table */
+}
+
+.form-container {
+  /* position: relative; */
+  /* opacity: 0; */
+  /* transform: translateY(20px); */
+  /* animation: fadeSlideIn 0.5s forwards ease-in-out; */
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+/* Pagination Buttons */
+.pagination-button {
+  /* padding: 8px 16px; */
+  font-size: 13px;
+  background-color: #32ab9b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 80px;
+  /* Ensures both buttons have the same minimum width */
+  text-align: center;
+  margin: 0 5px;
+  /* Space between buttons */
+}
+
+
+.pagination-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.modal-custom-width {
+  width: 100%;
+  /* New width for default modal */
+  margin: 10px;
+}
+
+.wide-input0 {
+  width: 60px;
+  /* Adjust the width as needed */
+}
+
+.wide-input {
+  width: 80px;
+  /* Adjust the width as needed */
+}
+
+.wide-input1 {
+  width: 100px;
+  /* Adjust the width as needed */
+}
+
+.wide-input2 {
+  width: 150px;
+  /* Adjust the width as needed */
+}
+
+.wide-input3 {
+  width: 180px;
+  /* Adjust the width as needed */
+}
+
+.wide-input4 {
+  width: 200px;
+  /* Adjust the width as needed */
+}
+
+.wide-input5 {
+  width: 230px;
+  /* Adjust the width as needed */
+}
+
+.wide-input6 {
+  width: 250px;
+  /* Adjust the width as needed */
+}
+
+.wide-input7 {
+  width: 300px;
+  /* Adjust the width as needed */
+}
+
+.wide-input8 {
+  width: 350px;
+  /* Adjust the width as needed */
+}
+
+.wide-input-remarks {
+  width: 350px;
+  /* Adjust the width as needed */
+}
+
+.table-responsivess {
+  overflow-x: auto;
+  margin: 10px;
+}
+
+/* .scroll-container{
+  scrollbar-width: none;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none; 
+} */
+.custom-dropdown-container {
+  position: relative;
+}
+
+.Select__menu {
+  z-index: 9999 !important;
+}
+
+.table-responsivess {
+  max-height: 500px;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* .custome-border{
+  height: 30px;
+} */
+
+
+
+
+.select-container .custome-input-height {
+  height: calc(1.2em + .70rem + 2px);
+  /* Match the height to your input fields */
+}
+
+.custom-textarea {
+  width: 100%;
+  /* or any specific width, e.g., 500px */
+  height: 200px;
+  /* or any specific height, e.g., 300px */
+}
+
+.custom-textarea-remarks-500 {
+  width: 400px;
+  /* or any specific width, e.g., 500px */
+  height: 66px;
+  /* or any specific height, e.g., 300px */
+}
+
+
+
+/* 
+.wrapper.login_form::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUOwFV4nve9o19Uf-SDj_Yu0odY68c_QL8kA&s');
+  background-size: cover;
+  background-position: center;
+  opacity: 10;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+
+ */
+
+
+.sticky-header th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #32ab9b;
+  color: white;
+}
+
+.fixed-table-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+}
+
+.custome-area-text-all-screen-same-as-input {
+
+  height: calc(1.2em + .70rem + 2px)
+}
+
+
+
+
+
+
+
+
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 350px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
